@@ -6,12 +6,13 @@ Ominaisuudet
 - Erilaisia teemoja: Valittavana useita yksilöllisiä teemoja.
 - Responsiivisuus: Toimii niin tietokoneella kuin mobiililaitteillakin.
 
-Tämä muistipeli on rakennettu seuraavilla teknologioilla:
+Peli on toteutettu seuraavilla teknologioilla:
 
 - HTML: Pelin rakenteen luomiseen.
 - CSS: Tyylien ja visuaalisen ilmeen määrittämiseen.
 - JavaScript: Pelin logiikan ja interaktiivisuuden toteuttamiseen.
-- Bing CREATE: Korttien kuvitus
+- Bing CREATE: Korttien kuvitus.
+- Pexels: Taustakuvat
 
 Pelin pelaaminen
 1. Käynnistä peli avaamalla index.html selaimessasi.
