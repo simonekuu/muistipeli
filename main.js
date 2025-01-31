@@ -152,16 +152,17 @@ const startPage = document.getElementById('start-page');
         card.dataset.index = index;//
 
         const img = document.createElement('img');
-        if(theme.value === 'image2'){
-          img.src = imagesFantasia[value];
-
+        switch (theme.value) {
+          case 'image2':
+            img.src = imagesFantasia[value];
+            break;
+          case 'image3':
+            img.src = imagesGals[value];
+            break;
+          default:
+            img.src = imagesJoulu[value];
         }
-       else if (theme.value === 'image3') {
-      img.src = imagesGals[value]; // Kolmas teema
-    }
-        else{
-          img.src = imagesJoulu[value];
-        }
+        
         
         card.appendChild(img);
 
