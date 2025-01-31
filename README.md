@@ -19,8 +19,8 @@ Pelin pelaaminen
 4. Nauti!
 
 Projektin rakenne
-index.html                  # Pääsivun HTML
-styles.css                   # CSS-tyylitiedosto
-main.js                     # JavaScript
-muistipeli_images/          # Kuvitus ja muut kuvaresurssit
-README.md                   # Tämä tiedosto
+- index.html                  # Pääsivun HTML
+- styles.css                  # CSS-tyylitiedosto
+- main.js                     # JavaScript
+- muistipeli_images/          # Kuvitus ja muut kuvaresurssit
+- README.md                   # Tämä tiedosto
