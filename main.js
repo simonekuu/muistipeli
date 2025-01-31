@@ -99,25 +99,17 @@ const startPage = document.getElementById('start-page');
     const backgroundImages = {
       image1: 'muistipeli_images/Taustat/Pink_Christmas.jpg',
       image2: 'muistipeli_images/Taustat/sunset.jpg',
-      image3: 'muistipeli_images/Taustat/pink_smoke.jpg',
-      image4: 'muistipeli_images/Taustat/main_bg.jpg'
+      image3: 'muistipeli_images/Taustat/pink_smoke.jpg'
       
     };
     
     
     function updateBackgroundImage(selectedValue) {
-      if(!selectedValue){
-      const imageUrl = backgroundImages[image4];
-      document.body.style.backgroundImage = `url(${imageUrl})`;
-      document.body.style.backgroundSize = 'cover';
-      document.body.style.backgroundPosition = 'center';
-      }
-      else{
+      if(!selectedValue) return;
       const imageUrl = backgroundImages[selectedValue];
       document.body.style.backgroundImage = `url(${imageUrl})`;
       document.body.style.backgroundSize = 'cover';
       document.body.style.backgroundPosition = 'center';
-      }
     }
     
     
