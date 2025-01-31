@@ -1,8 +1,9 @@
-Tervetuloa Muistipeliin! Tämä on hauska ja visuaalisesti miellyttävä suomenkielinen muistipeli, jossa kehität muistiasi yhdistämällä pareja yksin tai parin kanssa. Peli on toteutettu HTML:n, CSS:n ja JavaScriptin avulla. Kuvitus on luotu tekoälyn avulla.
+Tervetuloa Muistipeliin! Tämä on hauska ja visuaalisesti miellyttävä lapsille suunnattu suomenkielinen muistipeli. Peli on toteutettu HTML:n, CSS:n ja JavaScriptin avulla. Kuvitus on luotu tekoälyllä.
 
 Ominaisuudet
-- Helppo käyttää: Yksinkertainen ja intuitiivinen käyttöliittymä.
-- Tekoälyn kuvitus: Jokaisella kortilla on ainutlaatuinen visuaalinen ilme, joka luotu tekoälyn avulla.
+- Helppo käyttää: Yksinkertainen käyttöliittymä, joka sopii jo eskari-ikäiselle lapselle käytettäväksi.
+- Tekoälyn kuvitus: Jokaisella kortilla on ainutlaatuinen visuaalinen ilme.
+- Erilaisia teemoja: Valittavana useita yksilöllisiä teemoja.
 - Responsiivisuus: Toimii niin tietokoneella kuin mobiililaitteillakin.
 
 Tämä muistipeli on rakennettu seuraavilla teknologioilla:
