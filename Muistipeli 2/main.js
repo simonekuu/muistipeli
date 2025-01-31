@@ -243,22 +243,27 @@ const startPage = document.getElementById('start-page');
 
     
     function checkWinner() {
-        if (matchedPairs === pairCount) {
-          setTimeout(() => {
-            const winner = score[1] > score[2] ? player1 : score[1] < score[2] ? player2 : 'Tasapeli';
-            const winnerScore = Math.max(score[1], score[2]);
-            const cheer = document.getElementById('cheer');
-            cheer.play();
-            const winnerAnnounce = document.createElement("h1");
-            winnerAnnounce.className = "voittoilmoitus";
-            const winnerName = document.createTextNode(`${winner} on voittaja!`);//
-            saveWinner(winner,winnerScore)
-            winnerAnnounce.appendChild(winnerName);
-            document.body.appendChild(winnerAnnounce);
-           
+      if (matchedPairs === pairCount) {
+        setTimeout(() => {
+          const winner = score[1] > score[2] ? player1 : score[1] < score[2] ? player2 : 'Tasapeli';
+          const winnerScore = Math.max(score[1], score[2]);
+          const cheer = document.getElementById('cheer');
+          cheer.play();
+          const winnerAnnounce = document.createElement("h1");
+          winnerAnnounce.className = "voittoilmoitus";
+          let winnerName;
+          if(score[1] === score[2]){
+            winnerName = document.createTextNode('Tasapeli!');
           }
-        )}
-    };
+          else {
+            winnerName = document.createTextNode(`${winner} on voittaja!`);//
+          }
+          saveWinner(winner,winnerScore)
+          winnerAnnounce.appendChild(winnerName);
+          document.body.appendChild(winnerAnnounce);
+        }
+      )}
+  };
     function saveWinner(name, points) {
       const winners = JSON.parse(localStorage.getItem('winners')) || [];
       winners.push({ name, points });
