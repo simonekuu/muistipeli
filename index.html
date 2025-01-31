@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muistipeli</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <audio src="Sounds/click.mp3" id="click"></audio>
+  <audio src="Sounds/goit.mp3" id="gotit"></audio>
+  <audio src="Sounds/cheer.mp3" id="cheer"></audio>
+  <div id="start-page" class="container">
+    <h1>Muistipeli</h1>
+    <form id="start-form">
+      <label>Pelaaja 1:
+        <input type="text" id="player1" required>
+      </label><br><br>
+      <label>Pelaaja 2:
+        <input type="text" id="player2" required>
+      </label><br><br>
+      <label>Pareja:
+        <select id="pair-count">
+          <option value="6">6</option>
+          <option value="12">12</option>
+          <option value="18">18</option>
+          <option value="20">20</option>
+        </select>
+      </label><br><br>
+      <label>Teema:
+      <select id="theme">
+        <option value="" selected disabled>Valitse teema</option>
+        <option value="image1">Joulu</option>
+        <option value="image2">Fantasia</option>
+         <option value="image3">Tytöt</option>
+      </select>
+    </label><br><br><br>
+      <button type="submit">Aloita peli</button>
+      
+    </form>
+    <div id="winners-modal" class="modal hidden">
+      <div class="modal-content">
+        <span id="close-modal" class="close">&times;</span>
+        <h2>Voittajat</h2>
+        <ul id="winners"></ul>
+      </div>
+    </div><br>
+    <button id="show-winners">Näytä voittajat</button>
+  </div>
+    
+  </div>
+
+  <div id="game-page" class="container hidden">
+    <h1 id="game-title">Muistipeli</h1>
+    <div id="game-grid" class="grid"></div>
+    <div class="scoreboard">
+      <p id="turn-indicator"></p>
+      <p>Pisteet:</p>
+      <ul>
+        <li id="score-player1">Pelaaja 1: 0</li>
+        <li id="score-player2">Pelaaja 2: 0</li>
+      </ul>
+     
+      <button id="restart-game">Uusi peli</button>
+    </div>
+
+
+  <script src="main.js">
+    
+  </script>
+</body>
+</html>
