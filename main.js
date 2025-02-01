@@ -242,6 +242,7 @@ const startPage = document.getElementById('start-page');
     });
 
     restartButton.addEventListener('click', () => {
+      document.querySelector("form").reset();
       location.reload();
     });
 
