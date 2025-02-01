@@ -188,7 +188,6 @@ const startPage = document.getElementById('start-page');
           default:
             img.src = imagesJoulu[value];
                  break;
-          default:
             img.src = imagesMonsterit[value];
                  break;
         }
