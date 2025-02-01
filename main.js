@@ -101,7 +101,6 @@ const startPage = document.getElementById('start-page');
       image1: 'muistipeli_images/Taustat/Pink_Christmas.jpg',
       image2: 'muistipeli_images/Taustat/sunset.jpg',
       image3: 'muistipeli_images/Taustat/pink_smoke.jpg',
-      image4: 'muistipeli_images/Taustat/lights.jpg',
       
     };
     
