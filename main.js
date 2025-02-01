@@ -189,7 +189,7 @@ const startPage = document.getElementById('start-page');
             img.src = imagesJoulu[value];
                  break;
           default:
-            img.src = imagesMonsters[value];
+            img.src = imagesMonsterit[value];
         }
         
         
