@@ -10,7 +10,8 @@ body {
    background-size: cover; /* Skaalaa kuva koko näkymään */
    background-position: center; /* Keskittää kuvat */
      
-   background-image: url('muistipeli_images/Taustat/main_bg.jpg'); 
+   background-image: url('muistipeli_images/Taustat/main_bg.jpg');
+   user-select: none;
 }
     
 
