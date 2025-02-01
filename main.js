@@ -185,10 +185,10 @@ const startPage = document.getElementById('start-page');
           case 'image3':
             img.src = imagesGals[value];
             break;
+            img.src = imagesMonsterit[value];
+            break;
           default:
             img.src = imagesJoulu[value];
-                 break;
-            img.src = imagesMonsterit[value];
                  break;
         }
         
