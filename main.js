@@ -186,9 +186,6 @@ const img = document.createElement('img');
           case 'image3':
             img.src = imagesGals[value];
             break;
-            case 'image4':
-            img.src = imagesMonsterit[value];
-            break;
           default:
             img.src = imagesJoulu[value];
                  break;
