@@ -93,7 +93,7 @@ const startPage = document.getElementById('start-page');
       'muistipeli_images/Gals/mh20.jpeg',
     ];
 
- const imagesMonsters = [
+ const imagesMonsterit = [
       'muistipeli_images/Monsterit/monster1.jpeg',
       'muistipeli_images/Monsterit/monster2.jpeg',
       'muistipeli_images/Monsterit/monster3.jpeg',
