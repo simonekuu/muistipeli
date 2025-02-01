@@ -103,6 +103,9 @@ const startPage = document.getElementById('start-page');
       
     };
     
+    window.onload = () => {
+      document.body.style.backgroundImage = ''; 
+    };
     
     function updateBackgroundImage(selectedValue) {
       if(!selectedValue) return;
