@@ -106,13 +106,13 @@ const imagesMonsterit = [
       'muistipeli_images/Monsterit/monster11.jpeg',
       'muistipeli_images/Monsterit/monster12.jpeg',,
       'muistipeli_images/Monsterit/monster13.jpeg',
-      'muistipeli_images/Monsterit/monster14.jpg',
-      'muistipeli_images/Monsterit/monster15.jpg',
-      'muistipeli_images/Monsterit/monster16.jpg',
-      'muistipeli_images/Monsterit/monster17.jpg',,
-      'muistipeli_images/Monsterit/monster18.jpg',
-      'muistipeli_images/Monsterit/monster19.jpg',
-      'muistipeli_images/Monsterit/monster20.jpg',
+      'muistipeli_images/Monsterit/monster14.jpeg',
+      'muistipeli_images/Monsterit/monster15.jpeg',
+      'muistipeli_images/Monsterit/monster16.jpeg',
+      'muistipeli_images/Monsterit/monster17.jpeg',,
+      'muistipeli_images/Monsterit/monster18.jpeg',
+      'muistipeli_images/Monsterit/monster19.jpeg',
+      'muistipeli_images/Monsterit/monster20.jpeg',
     ];
 
 
