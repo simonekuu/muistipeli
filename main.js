@@ -190,6 +190,7 @@ const startPage = document.getElementById('start-page');
                  break;
           default:
             img.src = imagesMonsterit[value];
+                 break;
         }
         
         
