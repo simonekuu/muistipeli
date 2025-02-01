@@ -177,21 +177,34 @@ const startPage = document.getElementById('start-page');
         card.dataset.value = value;//
         card.dataset.index = index;//
 
-        const img = document.createElement('img');
-        switch (theme.value) {
-          case 'image2':
-            img.src = imagesFantasia[value];
-            break;
-          case 'image3':
-            img.src = imagesGals[value];
-            break;
-            case 'image4':
-            img.src = imagesMonsterit[value];
-            break;
-          default:
-            img.src = imagesJoulu[value];
-                 break;
-        }
+      const img = document.createElement('img');
+if (typeof value !== 'undefined' && value >= 0) {
+  switch (theme.value) {
+    case 'image2':
+      if (imagesFantasia[value]) {
+        img.src = imagesFantasia[value];
+      }
+      break;
+    case 'image3':
+      if (imagesGals[value]) {
+        img.src = imagesGals[value];
+      }
+      break;
+    case 'image4':
+      if (imagesMonsterit[value]) {
+        img.src = imagesMonsterit[value];
+      }
+      break;
+    default:
+      if (imagesJoulu[value]) {
+        img.src = imagesJoulu[value];
+      }
+      break;
+  }
+} else {
+  console.error('Invalid value or theme');
+}
+
         
         
         card.appendChild(img);
