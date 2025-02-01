@@ -166,7 +166,7 @@ const img = document.createElement('img');
             break;
           default:
             img.src = imagesJoulu[value];
-                 break;
+            break;
         }
         
         
