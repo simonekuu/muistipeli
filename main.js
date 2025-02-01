@@ -156,7 +156,6 @@ const startPage = document.getElementById('start-page');
         card.dataset.index = index;//
 
       const img = document.createElement('img');
-const img = document.createElement('img');
         switch (theme.value) {
           case 'image2':
             img.src = imagesFantasia[value];
