@@ -93,28 +93,7 @@ const startPage = document.getElementById('start-page');
       'muistipeli_images/Gals/mh20.jpeg',
     ];
 
- const imagesMonsterit = [
-      'muistipeli_images/Monsterit/monster1.jpeg',
-      'muistipeli_images/Monsterit/monster2.jpeg',
-      'muistipeli_images/Monsterit/monster3.jpeg',
-      'muistipeli_images/Monsterit/monster4.jpeg',
-      'muistipeli_images/Monsterit/monster5.jpeg',
-      'muistipeli_images/Monsterit/monster6.jpeg',
-      'muistipeli_images/Monsterit/monster7.jpeg',
-      'muistipeli_images/Monsterit/monster8.jpeg',
-      'muistipeli_images/Monsterit/monster9.jpeg',
-      'muistipeli_images/Monsterit/monster10.jpeg',
-      'muistipeli_images/Monsterit/monster11.jpeg',
-      'muistipeli_images/Monsterit/monster12.jpeg',
-      'muistipeli_images/Monsterit/monster13.jpeg',
-      'muistipeli_images/Monsterit/monster14.jpg',
-      'muistipeli_images/Monsterit/monster15.jpg',
-      'muistipeli_images/Monsterit/monster16.jpg',
-      'muistipeli_images/Monsterit/monster17.jpg',
-      'muistipeli_images/Monsterit/monster18.jpg',
-      'muistipeli_images/Monsterit/monster19.jpg',
-      'muistipeli_images/Monsterit/monster20.jpg',
-    ];
+
     const backgroundImageSelect = document.getElementById('theme');
 
     
