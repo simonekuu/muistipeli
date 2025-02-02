@@ -189,7 +189,7 @@ const imagesMonsterit = [
           case 'image3':
             img.src = imagesGals[value];
             break;
-        case 'image4':
+          case 'image4':
             img.src = imagesMonsterit[value];
             break;
           default:
