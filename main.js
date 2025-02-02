@@ -90,7 +90,7 @@ const startPage = document.getElementById('start-page');
       'muistipeli_images/Gals/mh17.jpeg',
       'muistipeli_images/Gals/mh18.jpeg',
       'muistipeli_images/Gals/mh19.jpeg',
-      'muistipeli_images/Gals/mh20.jpeg',
+      'muistipeli_images/Gals/mh20.jpeg'
     ];
 const imagesMonsterit = [
       'muistipeli_images/Monsterit/monster1.jpeg',
@@ -106,13 +106,13 @@ const imagesMonsterit = [
       'muistipeli_images/Monsterit/monster11.jpeg',
       'muistipeli_images/Monsterit/monster12.jpeg',,
       'muistipeli_images/Monsterit/monster13.jpeg',
-      'muistipeli_images/Monsterit/monster14.jpeg',
-      'muistipeli_images/Monsterit/monster15.jpeg',
-      'muistipeli_images/Monsterit/monster16.jpeg',
-      'muistipeli_images/Monsterit/monster17.jpeg',,
-      'muistipeli_images/Monsterit/monster18.jpeg',
-      'muistipeli_images/Monsterit/monster19.jpeg',
-      'muistipeli_images/Monsterit/monster20.jpeg',
+      'muistipeli_images/Monsterit/monster14.jpg',
+      'muistipeli_images/Monsterit/monster15.jpg',
+      'muistipeli_images/Monsterit/monster16.jpg',
+      'muistipeli_images/Monsterit/monster17.jpg',,
+      'muistipeli_images/Monsterit/monster18.jpg',
+      'muistipeli_images/Monsterit/monster19.jpg',
+      'muistipeli_images/Monsterit/monster20.jpg'
     ];
 
 
@@ -123,7 +123,7 @@ const imagesMonsterit = [
       image1: 'muistipeli_images/Taustat/Pink_Christmas.jpg',
       image2: 'muistipeli_images/Taustat/sunset.jpg',
       image3: 'muistipeli_images/Taustat/pink_smoke.jpg',
-        image4: 'muistipeli_images/Taustat/lilac.jpg',
+        image4: 'muistipeli_images/Taustat/lilac.jpg'
       
     };
     
