@@ -180,6 +180,9 @@ const imagesMonsterit = [
 
       const img = document.createElement('img');
         switch (theme.value) {
+          case 'image1':
+            img.src = imagesJoulu[value];
+            break;
           case 'image2':
             img.src = imagesFantasia[value];
             break;
@@ -190,7 +193,6 @@ const imagesMonsterit = [
             img.src = imagesMonsterit[value];
             break;
           default:
-            img.src = imagesJoulu[value];
             break;
         }
         
